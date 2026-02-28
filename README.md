@@ -1,6 +1,6 @@
-# MeridianLink Integration PoC
+# Ocrolus Integration PoC
 
-A Proof of Concept demonstrating a document integration pipeline between a processing system (Product A) and MeridianLink Mortgage (Product B).
+A Proof of Concept demonstrating a document integration pipeline between a processing system (Product A) and Ocrolus (Product B).
 
 ## What It Does
 
@@ -9,7 +9,7 @@ A Proof of Concept demonstrating a document integration pipeline between a proce
 ┌───────────┐      ┌───────────────┐      ┌───────────┐
 │ Fetch docs │ ──▶  │ Dummy process │ ──▶  │ Upload    │
 │ from       │      │ (metadata     │      │ processed │
-│ MeridianLink│      │  stamps)      │      │ docs back │
+│ Ocrolus    │      │  stamps)      │      │ docs back │
 └───────────┘      └───────────────┘      └───────────┘
 ```
 
@@ -28,7 +28,7 @@ Open [http://localhost:4000](http://localhost:4000) to access the dashboard.
 | Mode | `USE_MOCK` | Description |
 |------|-----------|-------------|
 | Simulated | `true` | Demo with mock data — no live API needed |
-| Live | `false` | Connects to real MeridianLink SOAP API |
+| Live | `false` | Connects to real Ocrolus API |
 
 ## API Endpoints
 

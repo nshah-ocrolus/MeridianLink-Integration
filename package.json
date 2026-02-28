@@ -1,14 +1,14 @@
 {
-  "name": "meridianlink-integration-poc",
+  "name": "ocrolus-integration-poc",
   "version": "1.0.0",
-  "description": "MeridianLink Document Integration Proof of Concept — Receive, Process, Return flow",
+  "description": "Ocrolus Document Integration Proof of Concept — Receive, Process, Return flow",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "node --watch src/app.js"
   },
   "keywords": [
-    "meridianlink",
+    "ocrolus",
     "mortgage",
     "integration",
     "poc"
